@@ -39,7 +39,7 @@ export default function Hero() {
                     />
                   </motion.span>
                   <h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-                    over-fresh
+                    oven-fresh
                   </h1>
                 </div>
                 presentation

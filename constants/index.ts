@@ -17,11 +17,11 @@ export const navbarItems = [
       title: "About us",
       href: "/bizkit-team",
    },
-   {
-      id: 4,
-      title: "Insights",
-      href: "/insights",
-   },
+   // {
+   //    id: 4,
+   //    title: "Insights",
+   //    href: "/insights",
+   // },
    {
       id: 5,
       title: "Contact us",
@@ -158,7 +158,7 @@ export const projectItem = [
    {
       id: 1,
       title: "ozone",
-      href: "/case/",
+      href: "https://www.behance.net/gallery/203548383/Packaging-Design-Ozone",
       src: project1,
       links: [
          {
@@ -176,7 +176,7 @@ export const projectItem = [
    {
       id: 2,
       title: "flaneur",
-      href: "/case/",
+      href: "https://www.behance.net/gallery/215729795/Flaneur-Premium-Chocolate-Website-UIUX",
       src: project2,
       links: [
          {
@@ -194,7 +194,7 @@ export const projectItem = [
    {
       id: 3,
       title: "zenly",
-      href: "/case/",
+      href: "https://www.behance.net/gallery/193831697/Branding-Zenly-Redefining-workspaces-",
       src: project3,
       links: [
          {
@@ -212,7 +212,7 @@ export const projectItem = [
    {
       id: 4,
       title: "astra",
-      href: "/case/",
+      href: "https://www.behance.net/gallery/204603339/UI-design-Astra-Task-Management-app-Branding",
       src: project4,
       links: [
          {
@@ -611,65 +611,72 @@ export const serviceCapaybilitiesItem = [
 ];
 
 export const expectationsItems = [
-   {
-      id: 1,
-      title1: "01",
-      subTitle1: "Comunication",
-      btn: "read",
-      para1: "The relationship with the clients is our top priority. We put extra effort into keeping mutual respect, honesty, and clarity in the conversation. For each client, we develop a project view site in Notion to track milestones and see the thinking behind steps. You always know what and when we do, as you feel confident in the results we bring.",
-   },
-   {
-      id: 2,
-      title1: "04",
-      subTitle1: "One point of contact",
-      btn: "read",
-      para1: "Every project is led by Ihor, the agency's founder and creative director. He ensures the whole project flows from start to finish. He puts together the right creative team for your specific project. You will always have this direct contact person available to speak your business language. He takes care of translating your business goals into the language of design for the team."
-   },
-   {
-      id: 3,
-      title1: "02",
-      subTitle1: "Ukrainian Business",
-      btn: "read",
-      para1: "We are a Ukrainian-born business working mainly with international clients. And as Ukrainians, we offer an unshakable workforce that's proven it can handle anything. The international arena was our focus from the start. And each working day, we showed up as genuine innovators and Ukraine ambassadors. Part of our mission is to promote our homeland by doing the most incredible work we can, each project at a time.",
-   },
-   {
-      id: 4,
-      title1: "05",
-      subTitle1: "Constantly Improving",
-      btn: "read",
-      para1: "We are passionate about creating industry-shifting presentations. And as the world around us, we constantly evolve and improve. Our growth is fueled by an innovative ecosystem designed for each team member to grow. We provide them with frequent pieces for training both on design craft and personal development. We are constantly looking for new ways to support our creatives and our community as for our clients."
-   },
-   {
-      id: 5,
-      title1: "03",
-      subTitle1: "Holistic Approach",
-      btn: "read",
-      para1: "We simply ask lots of questions to understand your goals, business, and niche you operate. Our discovery process is essential as it informs our decisions throughout the project. Once we firmly define the goal, it is incredible to move towards that goal. That's why so much of our work is discovery, research, and asking good questions. The answers we get and the data we find go into the foundation of project success.",
-   },
-   {
-      id: 6,
-      title1: "06",
-      subTitle1: "Limited Amount of Client",
-      btn: "read",
-      para1: "We believe it is vital to dedicate sole focus and undivided attention to each project. To add as much value as possible, we serve a limited amount of clients per month. We have a rule that we follow to choosing projects: our client understands the value of the presentation as a communication tool. We believe in their products or ideas. Together, we work to create positive change."
-   },
+  {
+    id: 1,
+    title1: "01",
+    subTitle1: "Clear Communication",
+    btn: "read",
+    para1:
+      "At Studio Bizkit, transparency is everything. From kickoff to delivery, you’re looped in via a shared Notion dashboard — complete with timelines, updates, and ongoing discussions. No guessing games. Just honest progress and prompt replies.",
+  },
+  {
+    id: 2,
+    title1: "02",
+    subTitle1: "Dedicated Project Lead",
+    btn: "read",
+    para1:
+      "Every project has a single point of contact — someone who gets your vision and speaks your language. Whether it's Bilal on tech, Ashwath on design, or Rahul on operations, you’re always talking to someone who’s in the weeds with you, not just reading the brief.",
+  },
+  {
+    id: 3,
+    title1: "03",
+    subTitle1: "Rooted in India, Built for the World",
+    btn: "read",
+    para1:
+      "We’re proudly based in Coimbatore, India — but our work speaks globally. Studio Bizkit is built on grit, creative exploration, and strong partnerships with founders and businesses across the world. We're small, agile, and ready to scale alongside you.",
+  },
+  {
+    id: 4,
+    title1: "04",
+    subTitle1: "Holistic Discovery",
+    btn: "read",
+    para1:
+      "We ask a lot of questions — the right ones. Before pushing pixels or writing code, we dive deep into your market, goals, and competitors. Discovery fuels our design and dev choices, keeping the entire build intentional and aligned with your mission.",
+  },
+  {
+    id: 5,
+    title1: "05",
+    subTitle1: "Always Evolving",
+    btn: "read",
+    para1:
+      "We don’t do rinse-and-repeat. Our team is constantly leveling up — through feedback, research, and internal experiments. That means you're not just hiring a team that’s skilled today, but one that’s hungry to be better tomorrow.",
+  },
+  {
+    id: 6,
+    title1: "06",
+    subTitle1: "Focused Workload",
+    btn: "read",
+    para1:
+      "We don’t take on everything — and that’s on purpose. By working with a handful of clients at a time, we go deep instead of wide. This lets us bring real value and attention to your project, instead of spreading ourselves thin across dozens of timelines.",
+  },
 ];
 
+
 export const achiveItems = [
-   {
-      id: 1,
-      title1: ["100+"],
-      title2: ["$280+"],
-      subTitle1: "Clients from 17 Countries",
-      subTitle2: "Millions raised for our clients",
-   },
-   {
-      id: 2,
-      title1: ["90%"],
-      title2: ["98%"],
-      subTitle1: "Of our clients come back",
-      subTitle2: "Net Promoting Score",
-   },
+  {
+    id: 1,
+    title1: ["50+"],
+    title2: ["70+"],
+    subTitle1: "Clients from 5 Countries in 5 months",
+    subTitle2: "Projects successfully shipped",
+  },
+  {
+    id: 2,
+    title1: ["90%"],
+    title2: ["98%"],
+    subTitle1: "Of our clients come back",
+    subTitle2: "Net Promoter Score",
+  },
 ];
 
 
@@ -1061,103 +1068,112 @@ export const aboutPartberItems = [
 // contact page constants
 
 export const FaqItems = [
-   {
-      id: 1,
-      question: "How many iterations the project includes?",
-      title: "Description",
-      description: "We’re committed to delighting every one of our clients and will do everything to deliver on the project fully. We iterate as much as needed to ensure the best result.",
-      links: [
-         {
-            id: 1,
-            title: 1,
-            description: "Based on our experience and ways of working, no more than three revisions are needed to meet clients’ expectations and business needs."
-         },
-         {
-            id: 2,
-            title: 2,
-            description: "If your project is something we are not capable of doing, we will say it right there and won’t commit. Instead, we will refer you to specialists in any field you need and we might know."
-         },
-      ],
-      button: "read"
-   },
-   {
-      id: 2,
-      question: "Do you animate presentations?",
-      title: "Description",
-      description: "Movement is what attracts the eye. But not every presentation requires animation, although we do agree that animated presentations give a wow effect. We surely add transitions and animation to your presentation where we think it increases engagement, surprise, or simply delivers the message flawlessly.",
-      links: [
-         {
-            id: 1,
-            title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
-         },
-      ],
-      button: "read"
-   },
-   {
-      id: 3,
-      question: "Do you join forces with other agencies?",
-      title: "Description",
-      description: "Yes, we do partner with other creative agencies where we lack expertise or experience. We carefully select our partners and frequently collaborate on brand identity, web design, animation design, and other fine initiatives that benefit both us and our clients. All with the purpose to expand our creative POV and supplementing you with top-notch work.",
-      links: [
-         {
-            id: 1,
-            title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
-         },
-      ],
-      button: "read"
-   },
-   {
-      id: 4,
-      question: "I want to become a part of the team! Do you hire?",
-      title: "Description",
-      description: "Yes! We actively search for talent to join us in completing high-stake presentation design projects at OCHI. As a presentation agency, we always aim to create the best products and services possible. Hence, we are looking for someone who will enjoy helping us fuse design and thinking into something impactful and beautiful.",
-      links: [
-         {
-            id: 1,
-            title: 1,
-            description: "If you feel like you’re on top of your creative game, whether it’s storytelling, graphic design, or animation. Send us the CV and portfolio at Ihor@ochi.design with “CREATE AND THRILL” in the subject. We will get back to you and maybe schedule a call. If there’s a potential fit here, you will meet the team. If that goes well – you’ll become a part of it."
-         },
-         {
-            id: 2,
-            title: 2,
-            description: "If you think you can improve our processes, marketing, PR, and communications, or you excel at managing people, we would love to hear from you. Send your message to hello@ochi.design with “-” and we will get back to you."
-         },
-      ],
-      button: "read"
-   },
-   {
-      id: 5,
-      question: "Can I hire you for publish speaking, or student workshop?",
-      title: "Description",
-      description: "The short answer is yes.",
-      links: [
-         {
-            id: 1,
-            title: 1,
-            description: "Through our work, we empower brands to make a difference. But while, the presentations that raise millions help in the long run by providing resources for organizations to evolve, create new workplaces, and make things better. We also offer our corporate clients personal training. We love visiting traditional university students to share insights and expertise through masterclasses and workshops. This is how we make things better by teaching others how to make better things. And this changes the world here and now."
-         },
-         {
-            id: 2,
-            title: 2,
-            description: "If you have an event coming or you are a university academic, please reach out to us with the topic, and we will see how we can help."
-         },
-      ],
-      button: "read"
-   },
-   {
-      id: 6,
-      question: "Would you like to jump on a podcast or YouTube video?",
-      title: "Description",
-      description: "Yes, why not. It’s a great chance to give back to the creative community by sharing and learning. Especially if the audience is relevant to the communication design subject. Or maybe it helps our clients in some way. We can’t know until we see some details, so drop us a line with a brief explanation at kseniia@ochi.design with the “Podcast/YT Proposal”.",
-      links: [
-         {
-            id: 1,
-            title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
-         },
-      ],
-      button: "read"
-   },
+  {
+    id: 1,
+    question: "How many revisions do you offer per project?",
+    title: "Description",
+    description:
+      "At Studio Bizkit, we focus on delivering work that hits the mark without needing endless back-and-forth. We include up to 3 structured revision rounds, but if there's something critical, we're not the type to say 'no' just for policy's sake.",
+    links: [
+      {
+        id: 1,
+        title: 1,
+        description:
+          "Most projects don’t even need all 3 rounds — clarity during discovery and communication does the heavy lifting early on."
+      },
+      {
+        id: 2,
+        title: 2,
+        description:
+          "If we feel a project isn’t a great fit, we’re upfront about it. And we’ll gladly point you to someone who is a better fit."
+      }
+    ],
+    button: "read"
+  },
+  {
+    id: 2,
+    question: "Do you animate websites or interfaces?",
+    title: "Description",
+    description:
+      "Absolutely. We love adding purposeful motion to our interfaces — micro-interactions, page transitions, and scroll animations that guide the user rather than distract them.",
+    links: [
+      {
+        id: 1,
+        title: 1,
+        description:
+          "We mostly use Framer Motion and GSAP depending on the stack. Subtlety is key — motion should support usability, not show off."
+      }
+    ],
+    button: "read"
+  },
+  {
+    id: 3,
+    question: "Do you collaborate with other agencies or freelancers?",
+    title: "Description",
+    description:
+      "Yes, we team up with external creatives when needed — especially for niche skills like 3D, advanced animation, or complex data visualization. Our extended network means we can scale flexibly without compromising quality.",
+    links: [
+      {
+        id: 1,
+        title: 1,
+        description:
+          "All partnerships go through our quality control and communication standards, so you’ll still have one consistent experience."
+      }
+    ],
+    button: "read"
+  },
+  {
+    id: 4,
+    question: "Are you hiring? Can I join the team?",
+    title: "Description",
+    description:
+      "We're always open to talking with talented designers, developers, and strategists. If you love solving real problems and shipping work that matters, let’s talk.",
+    links: [
+      {
+        id: 1,
+        title: 1,
+        description:
+          "Send your portfolio/CV to hello@studiobizkit.com with the subject 'BIZKIT CANDIDATE'. If we vibe, we’ll get in touch."
+      },
+      {
+        id: 2,
+        title: 2,
+        description:
+          "We also love collaborating with students. If you’re from a creative or tech background and want an internship or mentorship, hit us up."
+      }
+    ],
+    button: "read"
+  },
+  {
+    id: 5,
+    question: "Can I invite you for a talk, workshop, or university session?",
+    title: "Description",
+    description:
+      "Yes — we enjoy sharing what we’ve learned. Whether it’s a classroom, online panel, or corporate team, we’re happy to teach and exchange ideas.",
+    links: [
+      {
+        id: 1,
+        title: 1,
+        description:
+          "We’ve done sessions on UI/UX, product strategy, design systems, and startup-tech alignment. Just send us the what, when, and where."
+      }
+    ],
+    button: "read"
+  },
+  {
+    id: 6,
+    question: "Would you be open to a podcast or YouTube feature?",
+    title: "Description",
+    description:
+      "Sure! We’re always up for a good conversation — especially if it’s around design, tech, entrepreneurship, or anything that moves the creative web forward.",
+    links: [
+      {
+        id: 1,
+        title: 1,
+        description:
+          "Email your pitch to hello@studiobizkit.com with 'Podcast/YT Proposal' as the subject. Add links and context so we know what we’re stepping into."
+      }
+    ],
+    button: "read"
+  }
 ];

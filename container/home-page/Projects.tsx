@@ -1,5 +1,6 @@
 import { projectItem } from "@/constants";
 import { Heading, ProjectCard, RoundButton, Tags } from "@/components";
+import { project5, project6 } from "@/public";
 
 export default function Projects() {
 	return (
@@ -10,6 +11,75 @@ export default function Projects() {
 			/>
 			<div className="w-full flex justify-between gap-y-[50px] padding-x padding-y flex-wrap">
 				{projectItem.map((item) => (
+					<div
+						className="w-[49%] sm:w-full xm:w-full"
+						key={item.id}>
+						<div className="flex gap-[10px] items-center pb-[10px]">
+							<span className="w-[10px] h-[10px] rounded-full bg-secondry" />
+							<h1 className="small-text uppercase font-medium font-NeueMontreal text-secondry">
+								{item.title}
+							</h1>
+						</div>
+						<ProjectCard
+							item={item}
+							key={item.id}
+						/>
+						<div className="flex items-center gap-[10px] mt-[20px] flex-wrap">
+							{item.links.map((link) => (
+								<Tags
+									className="hover:text-white"
+									bgcolor="#212121"
+									item={link}
+									key={link.id}
+								/>
+							))}
+						</div>
+					</div>
+				))}
+			</div>
+			<Heading
+				title="In the oven"
+				className="padding-x padding-y pb-[50px] border-b border-[#21212155]"
+			/>
+			<div className="w-full flex justify-between gap-y-[50px] padding-x padding-y flex-wrap">
+				{[
+					{
+						id: 1,
+						title: "frozen memories",
+						href: "https://frozen-memories.vercel.app/",
+						src: project5,
+						links: [
+							{
+								id: 1,
+								title: "web design",
+								href: "/services",
+							},
+							{
+								id: 2,
+								title: "ux storytelling",
+								href: "/services",
+							},
+						]
+					},
+					{
+						id: 2,
+						title: "the dietrix",
+						href: "https://the-dietrix-frontend.vercel.app/",
+						src: project6,
+						links: [
+							{
+								id: 1,
+								title: "web design",
+								href: "/services",
+							},
+							{
+								id: 2,
+								title: "ux storytelling",
+								href: "/services",
+							},
+						]
+					},
+				].map((item) => (
 					<div
 						className="w-[49%] sm:w-full xm:w-full"
 						key={item.id}>

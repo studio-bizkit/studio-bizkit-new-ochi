@@ -30,7 +30,7 @@ export default function Navbar() {
       >
         <div className="w-[50%]">
           <Link href={"/"}>
-            <Image src={logo} alt="ochi logo" width={40} height={40} />
+            <Image src={logo} alt="bizkit logo" width={40} height={40} />
           </Link>
         </div>
         <div className="flex gap-x-[20px] w-[50%]">

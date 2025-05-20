@@ -16,9 +16,9 @@ export default function MobileNav() {
 				<Link href={"/"}>
 					<Image
 						src={logo}
-						alt="ochi logo"
-						width={70}
-						height={70}
+						alt="bizkit logo"
+						width={30}
+						height={30}
 					/>
 				</Link>
 				<HiOutlineMenuAlt4
@@ -38,9 +38,9 @@ export default function MobileNav() {
 							<Link href={"/"}>
 								<Image
 									src={mobileLogo}
-									alt="ochi logo"
-									width={70}
-									height={70}
+									alt="bizkit logo"
+									width={30}
+									height={30}
 								/>
 							</Link>
 							<IoMdClose

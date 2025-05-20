@@ -9,144 +9,147 @@ export default function Form() {
 					<div className="flex gap-[10px] w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								Hi! My name is
+								Hey, I’m
 							</h2>
 						</div>
-						<div className="w-full">
+						<div className="w-[2000px]">
 							<input
 								type="text"
-								placeholder="Enter your name*"
-								className="paragraph w-full font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out sm:w-full xm:w-full"
+								placeholder="Your name goes here*"
+								className="paragraph w-full font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out"
 							/>
 						</div>
 					</div>
 					<div className="flex gap-[10px] w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								and I work with
+								from
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
 								type="text"
-								placeholder="Compony name type here*"
-								className="paragraph w-full font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out sm:w-full xm:w-full"
+								placeholder="Company or brand name*"
+								className="paragraph w-full font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out"
 							/>
 						</div>
 					</div>
 				</div>
+
 				<div className="w-full flex gap-[10px]">
 					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								I’m looking for a partner to help me with
+								and we need help with
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
 								type="text"
-								placeholder="Your goal type here*"
-								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
+								placeholder="What are you building?*"
+								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full"
 							/>
 						</div>
 					</div>
 				</div>
+
 				<div className="w-full flex gap-[10px]">
 					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								With an idea of having that completed
+								and we’d love to get it done by
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
 								type="text"
-								placeholder="Date*"
-								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
+								placeholder="Deadline? Be real.*"
+								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full"
 							/>
 						</div>
 					</div>
 				</div>
+
 				<div className="w-full flex gap-[10px]">
 					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								I am hoping to stay around a budget range of
+								The budget we’re working with is
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
 								type="text"
-								placeholder="Select*"
-								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
+								placeholder="What range are we talking?*"
+								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full"
 							/>
 						</div>
 					</div>
 				</div>
+
 				<div className="w-full flex gap-[10px]">
 					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								You can reach me at
+								You can hit me up at
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
 								type="text"
-								placeholder="name@example.com"
-								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
+								placeholder="email@company.com*"
+								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full"
 							/>
 						</div>
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								to start the conversation.
+								and we’ll take it from there.
 							</h2>
 						</div>
 					</div>
 				</div>
+
 				<div className="w-full flex gap-[10px]">
 					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								Optionally, i’m sharing more:
+								Want to add anything else?
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
 								type="text"
-								placeholder="Product details type here..."
-								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
+								placeholder="The more context, the better."
+								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full"
 							/>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div className="w-full flex items-center justify-end sm:justify-start xm:justify-start pt-[50px]">
-				<div className="flex sm:flex-col xm:flex-col gap-[25px]">
-					<div className="flex gap-[10px] items-center">
-						<div className="flex gap-[10px]">
-							<input
-								type="checkbox"
-								className="w-[30px]"
-							/>
-							<p className="paragraph text-secondry font-NeueMontreal font-normal">
-								I agree with the
-							</p>
+
+				<div className="w-full flex items-center justify-end sm:justify-start xm:justify-start pt-[50px]">
+					<div className="flex sm:flex-col xm:flex-col gap-[25px]">
+						<div className="flex gap-[10px] items-center">
+							<div className="flex gap-[10px]">
+								<input type="checkbox" className="w-[30px]" />
+								<p className="paragraph text-secondry font-NeueMontreal font-normal">
+									I’ve read and agree to the
+								</p>
+							</div>
+							<Link
+								className="paragraph font-medium font-NeueMontreal text-secondry capitalize flex flex-col hover"
+								href={"/privacy"}>
+								Privacy Policy
+							</Link>
 						</div>
-						<Link
-							className="paragraph font-medium font-NeueMontreal text-secondry capitalize flex flex-col hover"
-							href={"/privacy"}>
-							Privacy Policy
-						</Link>
-					</div>
-					<div className="w-fit flex items-center justify-between bg-secondry cursor-pointer rounded-full group">
-						<RoundButton
-							bgcolor="#212121"
-							href="/"
-							title="send inquiry"
-							className="bg-white text-black"
-							style={{ color: "#fff" }}
-						/>
+						<div className="w-fit flex items-center justify-between bg-secondry cursor-pointer rounded-full group">
+							<RoundButton
+								bgcolor="#212121"
+								href="/"
+								title="send inquiry"
+								className="bg-white text-black"
+								style={{ color: "#fff" }}
+							/>
+						</div>
 					</div>
 				</div>
 			</div>
